@@ -1,0 +1,73 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+   
+}
+
+h1 {
+    color: #fff;
+}
+
+h2 {
+    color: #fff;
+}
+
+p {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+span {
+    color: red;
+    font-weight: 900;
+}
+
+.block {
+    color: white;
+    font-size: 40px;
+    width: 250px;
+    height: 250px;
+    background-color: hotpink;
+    margin: 20px 10px 50px 200px;
+    padding: 25px 10px 30px 45px;
+}
+
+
+/* ---first-screen---*/
+
+.first-screen{
+    background-color: #252527;
+}
+
+/* ---about---*/
+.about{
+    background-color: #252527;
+}
+
+
+.skills{
+    background-color: #252527;
+}
+.resume{
+    background-color: #252527; 
+}
+.works{
+    background-color: #252527;
+}
+.contacts{
+    background-color: #252527;
+}
+
+.add-text{
+    color: hotpink;
+}

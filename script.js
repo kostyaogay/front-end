@@ -1,6 +1,6 @@
 //привет Костя я просто комент 
 // start
-  console.log('Стар выполнения JavaScript файла')
+  // console.log('Стар выполнения JavaScript файла')
 // alert('Как дела?')
 
 
@@ -23,6 +23,8 @@ myButton.innerHTML = 'Добавить текст'
 myButton.addEventListener('click', function() {
 	addText.innerHTML += 'Я добавил текст по клику! '
 })
+
+
 
 
 

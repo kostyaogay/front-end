@@ -1,8 +1,12 @@
-//привет Костя я просто комент 
+//привет Костя я просто комент
 // start
   // console.log('Стар выполнения JavaScript файла')
 // alert('Как дела?')
 
+
+
+// config --global user.name 'Kostya Ogay'
+// config --global user.email 'olekawowi@gmail.com'
 
 // --
 // нашли кнопку/teg (button) при помощи метода querySelector()

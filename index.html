@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>МОЙ ПЕРВЫЙ САЙТ!</title>
 </head>
@@ -14,12 +17,24 @@
         <header class="header">
             <div class="container">
                 <ol class="menu">
-                    <li>Главная</li>
-                    <li>About</li>
-                    <li>Skills</li>
-                    <li>Resume</li>
-                    <li>Works</li>
-                    <li>Contacts</li>
+                    <li>
+                        <a class="menu__link" href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a class="menu__link" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="menu__link" href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a class="menu__link" href="#resume">Resume</a>
+                    </li>
+                    <li>
+                        <a class="menu__link" href="#works">Works</a>
+                    </li>
+                    <li>
+                        <a class="menu__link" href="#contacts">Contacts</a>
+                    </li>
                 </ol>
             </div>
         </header>
@@ -28,12 +43,13 @@
                 <div class="container">
                     <div class='first-screen__wrap'>
                         <div class="first-screen__items">
+                            <p>Привет всем</p>
                             <h1>Меня зовут Костя Огай</h1>
                             <h2 class="first-screen__subtitle">Я Front-End разработчик</h2>
                         </div>
-            
+
                         <div class="first-screen__image">
-                            <img src="data:image/jpeg;base64,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">
+                            <img src="https://krasivodel.ru//wp-content/uploads/2020/06/Piter-krasivyye-foto-4.jpg" alt='image' />
                         </div>
                     </div>
                 </div>
@@ -41,7 +57,10 @@
 
             <section class="about">
                 <div class="container">
-                    <h2>О себе</h2>
+                    <h2 class="about__title titles">
+                        О себе
+                        <div class="titles__decor"></div>
+                    </h2>
                     <p>
                         Меня зовут Костя я занимаюсь теннисом,играю в игры,любимые игры все части <span>DMC</span> ну и
                         другие,учусь
@@ -52,7 +71,19 @@
 
             <section class="skills">
                 <div class="container">
-                    <h2>Навыки</h2>
+                    <h2 class="skills__title titles">
+                        Навыки
+                        <div class="titles__decor"></div>
+                    </h2>
+                    <div class="skills__body">
+                        <div class="skills-item" style="background-color: darkorange;">
+                            <div class="skills-item__romb">
+                                JS
+                            </div>
+                            <h3>JavaScript</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, nam!</p>
+                        </div>
+                    </div>
                     <p>
                         Меня зовут Костя я занимаюсь теннисом,играю в игры,любимые игры все части <span>DMC</span> ну и
                         другие,учусь
@@ -63,7 +94,10 @@
 
             <section class="resume">
                 <div class="container">
-                    <h2>резюме</h2>
+                    <h2 class="resume__title titles">
+                        Резюме
+                        <div class="titles__decor"></div>
+                    </h2>
                     <p>
                         Меня зовут Костя я занимаюсь теннисом,играю в игры,любимые игры все части <span>DMC</span> ну и
                         другие,учусь
@@ -85,7 +119,10 @@
 
             <section class="contacts">
                 <div class="container">
-                    <h2> контакты</h2>
+                    <h2 class="contacts__title titles">
+                        Контакты
+                        <div class="titles__decor"></div>
+                    </h2>
                     <p>
                         Меня зовут Костя я занимаюсь теннисом,играю в игры,любимые игры все части <span>DMC</span> ну и
                         другие,учусь
@@ -100,14 +137,14 @@
     </div>
 
 
-    <h2>Skills</h2>
-    <h2>Resume</h2>
-    <h2>Works</h2>
-    <h2>Contacts</h2>
+
 
 
     <section style='padding-bottom: 200px' class="test">
-             <a href="https://ossified-package-909.notion.site/55a834006b1e4020baf1958ceb75c52a">Ссылка на ДЗ</a>
+        <div>
+            <a href="https://www.svetailo.com">svetailo</a>
+        </div>
+        <a href="https://ossified-package-909.notion.site/55a834006b1e4020baf1958ceb75c52a">Ссылка на ДЗ</a>
         <div>
             <button>Нажми на меня</button>
             <p class='add-text'></p>

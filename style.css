@@ -4,9 +4,9 @@
     padding: 0;
 }
 
-
-
-
+body{
+    font-family: 'Raleway', sans-serif;
+}
 
 
 p {
@@ -15,33 +15,45 @@ p {
     font-weight: 300;
 }
 
-.wrapper {
-   
-}
+/* .wrapper {} */
 
 .container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
-.menu{
-    display: flex;
-    gap: 20px; 
-    list-style-type: none;
-    padding-top:30px ;
-    padding-bottom: 30px;
+
+
+/* HEADER */
+/* цвет фона #252527 */
+.header {
+    background-color: #252527;
 }
 
-li{
-    color: green;
-    transition: 0.5s;
+
+/* MENU */
+
+.menu{
+    padding-top:30px ;
+    padding-bottom: 30px;
+    display: flex;
+    gap: 20px; 
+    list-style: none;
+}
+
+.menu__link{
+    color: #fff;
     font-size: 20px;
+    text-decoration: none;
     cursor: pointer;
 }
-li:hover{
-      color: orange ;
-      transition: 0.5s;
+
+.menu__link:hover{
+    transition: 300ms;
+    color: #4f93e5;
 }
+
+
 button{
     color: red;
     transition: 0.5s;
@@ -55,6 +67,11 @@ button:hover{
 span {
     color: red;
     font-weight: 900;
+    transition: 0.5s;
+}
+span:hover{
+    color: darkmagenta;
+    transition: 0.5s;
 }
 
 .block {
@@ -68,7 +85,7 @@ span {
 }
 
 
-/* ---first-screen---*/
+/* FIRST SCREEN */
 
 .first-screen{
     background-color: #252527;
@@ -78,52 +95,86 @@ span {
     display: flex;
     justify-content: space-around;
     /* padding: 500px 0px; */
-height: 600px; 
-align-items: center;
+    height: 600px; 
+    align-items: center;
 }
+
 
 .first-screen__items{
 
 }
-h1{
+
+.first-screen__items p{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.first-screen__items h1{
     color: #fff;
     font-size: 45px;
     font-weight: 700;
-
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+
 .first-screen__subtitle {
-    color:  #7FFF00;
+    color:  #4f93e5;
     font-size: 27px;
 }
 
 .first-screen__image{
-border: 3px solid #7FFF00;
-height: 400px;
-width: 350px;
+    border: 6px solid #4f93e5;
+    height: 400px;
+    width: 350px;
+    transition: 0,3s;
+    box-shadow: 4px 4px 36px 29px rgba(149, 0, 255, 0);
 }
 
 .first-screen__image img{
    width: 100%;
    height: 100%;
 }
-
+.active{
+    box-shadow: 4px 4px 36px 29px rgba(150, 0, 255, 0.2);
+    transition: 0,3s;
+}
 /* ---about---*/
 .about{
     background-color: #252527;
 }
 
+.titles{
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+    letter-spacing: 4px;
+}
+
+.titles__decor{
+    
+width: 100px;
+height: 2px;
+background-color: #4f93e5;
+margin: 0 auto;
+margin-top: 10px;
+}
+
+.about{
+        background-color: #1f1f20;
+}
 
 .skills{
     background-color: #252527;
 }
 .resume{
-    background-color: #252527; 
+    background-color: #1f1f20; 
 }
 .works{
     background-color: #252527;
 }
 .contacts{
-    background-color: #252527;
+    background-color: #1f1f20;
 }
 
 .add-text{

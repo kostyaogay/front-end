@@ -39,7 +39,7 @@
             </div>
         </header>
         <main class="main">
-            <section class="first-screen">
+            <section id="home" class="first-screen">
                 <div class="container">
                     <div class='first-screen__wrap'>
                         <div class="first-screen__items">
@@ -55,7 +55,7 @@
                 </div>
             </section>
 
-            <section class="about">
+            <section id="about" class="about">
                 <div class="container">
                     <h2 class="about__title titles">
                         О себе
@@ -69,30 +69,60 @@
                 </div>
             </section>
 
-            <section class="skills">
+            <section id="skills" class="skills">
                 <div class="container">
                     <h2 class="skills__title titles">
                         Навыки
                         <div class="titles__decor"></div>
                     </h2>
-                    <div class="skills__body">
-                        <div class="skills-item" style="background-color: darkorange;">
+                    <div class="skills__items">
+                        <div class="skills-item">
                             <div class="skills-item__romb">
-                                JS
+                                <img class="skills-item__icon" src="icons/js_icon2.svg" alt="">
                             </div>
                             <h3>JavaScript</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, nam!</p>
+                            <p>JS is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.</p>
+                        </div>
+                        <div class="skills-item">
+                            <div class="skills-item__romb">
+                               TS
+                            </div>
+                            <h3>TypeScript</h3>
+                            <p>TS, it is a strict syntactical superset of JavaScript and adds optional static typing to the language.</p>
+                        </div>
+                        <div class="skills-item">
+                            <div class="skills-item__romb">
+                                React
+                            </div>
+                            <h3>React</h3>
+                            <p>A JavaScript library for building user interfaces</p>
+                        </div>
+                        <div class="skills-item">
+                            <div class="skills-item__romb">
+                                Redux
+                            </div>
+                            <h3>Redux</h3>
+                            <p>Redux helps you write applications that behave consistently, run in different environments (client, server, and native), and are easy to test.</p>
+                        </div>
+                        <div class="skills-item">
+                            <div class="skills-item__romb">
+                                HTML
+                            </div>
+                            <h3>HTML</h3>
+                            <p>The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.</p>
+                        </div>
+                        <div class="skills-item">
+                            <div class="skills-item__romb">
+                                SASS
+                            </div>
+                            <h3>SASS</h3>
+                            <p>Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.</p>
                         </div>
                     </div>
-                    <p>
-                        Меня зовут Костя я занимаюсь теннисом,играю в игры,любимые игры все части <span>DMC</span> ну и
-                        другие,учусь
-                        программировать.
-                    </p>
                 </div>
             </section>
 
-            <section class="resume">
+            <section id="resume" class="resume">
                 <div class="container">
                     <h2 class="resume__title titles">
                         Резюме
@@ -106,9 +136,11 @@
                 </div>
             </section>
 
-            <section class="works">
+            <section id="works" class="works">
                 <div class="container">
-                    <h2>работы</h2>
+                    <h2 class="works__title titles">
+                       Работы
+                        <div class="titles__decor"></div>
                     <p>
                         Меня зовут Костя я занимаюсь теннисом,играю в игры,любимые игры все части <span>DMC</span> ну и
                         другие,учусь
@@ -117,7 +149,7 @@
                 </div>
             </section>
 
-            <section class="contacts">
+            <section id="contacts" class="contacts">  
                 <div class="container">
                     <h2 class="contacts__title titles">
                         Контакты
@@ -141,6 +173,9 @@
 
 
     <section style='padding-bottom: 200px' class="test">
+        <div>
+            <a href="https://kostyaogay.github.io/front-end/" target="_blank">Kostya Ogay</a>
+        </div>
         <div>
             <a href="https://www.svetailo.com">svetailo</a>
         </div>

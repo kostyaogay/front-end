@@ -4,10 +4,6 @@
 // alert('Как дела?')
 
 
-
-// config --global user.name 'Kostya Ogay'
-// config --global user.email 'olekawowi@gmail.com'
-
 // --
 // нашли кнопку/teg (button) при помощи метода querySelector()
 const myButton = document.querySelector('button')

@@ -170,21 +170,10 @@ margin-top: 10px;
 
 .about{
         background-color: #1f1f20;
+        padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-
-.skills{
-    background-color: #252527;
-}
-.resume{
-    background-color: #1f1f20; 
-}
-.works{
-    background-color: #252527;
-}
-.contacts{
-    background-color: #1f1f20;
-}
 
 .add-text{
     color: hotpink;
@@ -193,6 +182,7 @@ margin-top: 10px;
 /* Skills */
 
 .skills{
+    background-color: #252527;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -257,13 +247,21 @@ margin-top: 10px;
 /* --- Resume --- */
 
 .resume{
+    background-color: #1f1f20;
     padding-top: 50px;
     padding-bottom: 50px;
 }
-
+.button{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2 px;
+    text-align: center
+}
 
 /* --- Works --- */
 .works{
+    background-color: #252527;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -271,6 +269,7 @@ margin-top: 10px;
 
 /* --- Contacts --- */
 .contacts{
+    background-color: #1f1f20;
     padding-top: 50px;
     padding-bottom: 50px;
 }

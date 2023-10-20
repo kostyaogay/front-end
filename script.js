@@ -19,7 +19,7 @@
 // // Method innerHTML меняет текст внутри тега
 // myButton.innerHTML = 'Добавить текст'
 
-// //используем метод который ловит событие клика по кнопки addEventListener()
+//используем метод который ловит событие клика по кнопки addEventListener()
 // myButton.addEventListener('click', function() {
 // 	addText.innerHTML += 'Я добавил текст по клику! '
 // })

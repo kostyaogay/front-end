@@ -367,6 +367,7 @@ text-decoration: none;
     color: #fff;
     font-size: 25px;
     font-weight: 400;
+    letter-spacing: 2px;
 }
 
 
@@ -375,8 +376,14 @@ text-decoration: none;
     display: flex;
     gap: 20px;
     justify-content: center;
-
+    padding: 15px;
+     
 }
+.footer p{
+    letter-spacing: 2px;
+}
+    
+
 
 
 
@@ -391,6 +398,7 @@ text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
+     
 }
 .footer__link img{
     width: 20px;

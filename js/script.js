@@ -20,9 +20,9 @@
 // myButton.innerHTML = 'Добавить текст'
 
 //используем метод который ловит событие клика по кнопки addEventListener()
-// myButton.addEventListener('click', function() {
-// 	addText.innerHTML += 'Я добавил текст по клику! '
-// })
+myButton.addEventListener('click', function() {
+	addText.innerHTML += 'Я добавил текст по клику! '
+})
 
 //событие мыши
 // const firstScreenImage = document.querySelector('.first-screen__image')
